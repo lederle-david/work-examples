@@ -1,0 +1,106 @@
+.main{
+	display: table;
+	width: 1000px;
+	height: 580px;
+	padding: 5px;
+	border: solid;
+	border-color: #999999;
+}
+
+.left{
+	display: table-cell;
+	width: 300px;
+	background-color: #e6f9ff;
+}
+.middle{
+	display: table-cell;
+	width: 310px;
+	border: solid;
+	border-color: #999999;
+	padding: 10px;
+	background-color: #e6f9ff;
+}
+.block{
+	display: table-cell;
+	width: 100%;
+	padding: 15px;
+	font-size: 11px;
+}
+.errorBlock{
+	display: table-cell;
+	width: 270px;
+	height: 320px;
+	font-size: 11px;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+#errors{
+	width: 200px;
+	padding: 10px;
+}
+.title{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+}
+
+.type1{
+	font-family: "Comic Sans", Serif;
+	font-size: 200%;
+	text-shadow: 2px 2px #000000;
+	color: #1a8cff;
+	text-align: center;
+}
+
+.type2{
+	font-family: "Comic Sans", Serif;
+	font-size: 150%;
+	text-align: left;
+}
+
+.type3{
+	text-align: center;
+}
+
+hr{
+	color: #CC0000;
+}
+
+label{ 
+  float: left;
+  font-weight: bold;
+  width: 150px;
+}
+
+fieldset{ 
+  border:4px outset green;
+  padding:10px 2px;
+  margin-bottom:4px;
+  font-size: 14px;  
+}
+
+legend{
+  border: 4px groove #ff0000;
+  background-color: #99ff99; 
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 3px; 
+  text-shadow:0.1em 0.2em 0.09em #333; 
+}
+textarea{
+  text-align: left;
+  width: 95%;
+}
+
+
+.footerBlock{
+	width: 89%;
+}
+footer{
+	width: 85%;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
